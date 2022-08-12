@@ -3,6 +3,11 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.six {
+  padding-right: 10px;
 }
 
 .logo {
@@ -16,7 +21,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
   justify-content: space-between;
+  column-gap: 10px;
+  padding: 8px;
 }
 
 a {
