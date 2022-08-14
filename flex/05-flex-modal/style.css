@@ -20,8 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
 }
 
+.items-left {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+.end {  
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.text {
+  padding-bottom: 10px;
+}
+
+.header {
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
